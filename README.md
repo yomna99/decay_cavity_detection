@@ -1,4 +1,4 @@
-# decay_cavity_detection
+
 # Caries Detection with YOLO and Streamlit
 
 ## Description
@@ -10,6 +10,9 @@ This project aims to detect dental caries in tooth images using the YOLO (You On
 - YOLO-based object detection for dental caries.
 - Classification into three classes: decay cavity, healthy tooth, and early decay.
 - Streamlit application for easy and interactive use.
+## Dataset
+
+The dataset used for training and testing can be found ([[https://app.roboflow.com/yomna-hupf9/tooth_carries_2/2](https://app.roboflow.com/yomna-hupf9/tooth_carries_2/2)]).
 
 ## Getting Started
 
@@ -22,7 +25,7 @@ This project aims to detect dental caries in tooth images using the YOLO (You On
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/caries-detection.git
+    git clone https://github.com/yomna99/caries-detection.git
     cd caries-detection
     ```
 
@@ -38,8 +41,8 @@ This project aims to detect dental caries in tooth images using the YOLO (You On
     pip install -r requirements.txt
     ```
 
-4. Download the pre-trained YOLO weights (if not included in the repository):
-    - [Link to YOLO weights]
+4. Download the pre-trained YOLO weights :
+    -best.pt
 
 ### Usage
 
@@ -51,6 +54,12 @@ This project aims to detect dental caries in tooth images using the YOLO (You On
 2. Open your web browser and go to `http://localhost:8501`.
    
 3. Upload a tooth image to the application and observe the caries detection results.
+
+![im![Capture d'écran 2024-01-07 235443](https://github.com/yomna99/decay_cavity_detection/assets/114284730/6a1e2531-8a19-4f03-b46e-85033b53147e)
+age](https://github.com/yomna99/decay_cavity_detection/assets/114284730/0c252403-7714-4a0b-b461-987a2e1dee10)
+![image](https://github.com/yomna99/decay_cavity_detection/assets/114284730/2668d091-ad29-4a23-b403-d2069f92aef2)
+
+
 
 ## Training
 
